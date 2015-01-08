@@ -1,0 +1,41 @@
+{
+  "name": "event-emitter-plus",
+  "version": "0.0.1",
+  "description": "Stackable, Queueable and Promise-compatible Event Emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/event-emitter-plus.git"
+  },
+  "keywords": [
+    "eventemitter",
+    "event",
+    "emitter",
+    "stack-queue",
+    "findhit",
+    "findhit-util",
+    "promisable",
+    "promise",
+    "thenable",
+    "then",
+    "stackable",
+    "stack",
+    "queueable",
+    "queue",
+    "next-generation",
+    "plus"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/findhit/event-emitter-plus/issues"
+  },
+  "homepage": "https://github.com/findhit/event-emitter-plus",
+  "dependencies": {
+    "findhit-util": "^0.2.3",
+    "stack-queue": "0.0.4"
+  }
+}
